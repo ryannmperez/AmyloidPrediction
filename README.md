@@ -1,5 +1,9 @@
 # Amyloid Prediction
 
+<p align="center">
+  <img src="assets/umap_embedding.jpeg" alt="UMAP embedding of peptide manifold" width="600">
+</p>
+
 A deep learning framework for predicting amyloid-forming peptides using transformer-based models and autoencoders.
 
 ## Overview
