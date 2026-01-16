@@ -1,10 +1,10 @@
-# Amyloid Prediction
+# AggBERT: Amyloid Prediction
 
 <p align="center">
   <img src="assets/umap_embedding.jpeg" alt="UMAP embedding of peptide manifold" width="600">
 </p>
 
-A deep learning framework for predicting amyloid-forming peptides using transformer-based models and autoencoders.
+A deep learning framework for predicting amyloid-forming hexapeptides using semi-supervised ProtBERT models.
 
 ## Overview
 
@@ -92,11 +92,18 @@ python prospective_predictions.py <model_path>
 
 If you use this code in your research, please cite:
 
+Perez, R. M., Li, X., Giannakoulias, S., & Petersson, E. J. (2023). AggBERT: Best in Class Prediction of Hexapeptide Amyloidogenesis with a Semi-Supervised ProtBERT Model. *Journal of Chemical Information and Modeling*, 63(18), 5727-5733. https://doi.org/10.1021/acs.jcim.3c00817
+
 ```bibtex
-@software{amyloid_prediction,
-  author = {Perez, Ryan},
-  title = {Amyloid Prediction},
-  url = {https://github.com/ryannmperez/AmyloidPrediction}
+@article{perez2023aggbert,
+  author = {Perez, Ryan M. and Li, Xuejiao and Giannakoulias, Stavros and Bhardwaj, Gaurav and Petersson, E. James},
+  title = {AggBERT: Best in Class Prediction of Hexapeptide Amyloidogenesis with a Semi-Supervised ProtBERT Model},
+  journal = {Journal of Chemical Information and Modeling},
+  volume = {63},
+  number = {18},
+  pages = {5727--5733},
+  year = {2023},
+  doi = {10.1021/acs.jcim.3c00817}
 }
 ```
 
