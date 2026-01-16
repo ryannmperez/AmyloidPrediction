@@ -55,6 +55,10 @@ python prospective_predictions.py <model_path>
 
 ## Models
 
+### Pre-trained Weights
+Download the pre-trained AggBERT model weights from Zenodo:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18272229.svg)](https://doi.org/10.5281/zenodo.18272229)
+
 ### Transformer (ProteinBERT)
 - Base model: [Rostlab/prot_bert](https://huggingface.co/Rostlab/prot_bert)
 - Fine-tuned using 5-fold stratified cross-validation
